@@ -1,0 +1,88 @@
+.ProductDetails {
+    display: grid;
+    grid-template:
+        "images media main" 400px
+        "Accordion Accordion Accordion"
+        /85px 505px 610px;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.ProductDetails__main {
+    box-shadow: var(--light-shadow);
+    position: relative;
+    border-radius: 10px;
+    padding: 2.8rem 4.5rem;
+    font-size: 1.4rem;
+    grid-area: main;
+}
+
+.ProductDetails__title {
+    font-size: 2.4rem;
+    font-weight: 400;
+    max-width: 480px;
+    line-height: 25px;
+}
+
+.ProductDetails__rating {
+    display: flex;
+    align-items: center;
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.ProductDetails__rating-avg {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 1rem;
+}
+
+.ProductDetails__reviews {
+    margin-top: 2px;
+    color: #8a858e;
+}
+
+.ProductDetails__price {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.ProductDetails__shipping {
+    color: #8a858e;
+}
+
+.ProductDetails__media {
+    border-radius: 10px;
+    grid-area: media;
+}
+
+.ProductDetails__selected {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ProductDetails__images {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    grid-area: images;
+}
+
+.ProductDetails__image {
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ProductDetails__image--active {
+    border: 2px solid var(--primary-color);
+}
+
+.ProductDetails__intersect {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

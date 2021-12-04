@@ -1,0 +1,14 @@
+.Register__group {
+    display: flex;
+    column-gap: 2rem;
+}
+
+.Register__terms {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+.Register__link {
+    font-weight: 600;
+    color: var(--primary-color);
+}

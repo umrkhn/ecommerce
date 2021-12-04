@@ -1,0 +1,51 @@
+.Review {
+    display: flex;
+    margin-top: 2.5rem;
+    padding: 0 4.5rem;
+}
+
+.Review__profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 2rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+.Review__body {
+    width: 100%;
+    word-break: break-word;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(149, 81, 217, 25%);
+}
+
+.Review__header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+}
+
+.Review__name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    line-height: 2rem;
+    text-transform: capitalize;
+}
+
+.Review__timestamp {
+    font-size: 1.6rem;
+    color: rgba(149, 81, 217, 50%);
+}
+
+.Review__description {
+    font-size: 2rem;
+}

@@ -1,0 +1,50 @@
+.Accordion {
+    box-shadow: var(--light-shadow);
+    border-radius: 10px;
+    grid-area: Accordion;
+    padding: 2.8rem 4rem;
+}
+
+.Accordion__nav {
+    display: flex;
+    border-bottom: 1px solid rgba(149, 81, 217, 25%);
+}
+
+.Accordion__link {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.8rem;
+    width: 150px;
+    color: var(--primary-color);
+    border-radius: 5px 5px 0 0;
+}
+
+.Accordion__link--active {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+
+.Accordion__list {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+.Accordion__list ::marker {
+    color: var(--primary-color);
+}
+
+.Accordion__feature {
+    width: 50%;
+}
+
+.Accordion__feature-label {
+    color: var(--primary-color);
+    font-weight: 500;
+    display: inline-block;
+    width: 40%;
+}

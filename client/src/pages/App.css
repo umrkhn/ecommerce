@@ -1,0 +1,60 @@
+:root {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    --main-color: #ffffff;
+    --primary-color: #9551d9;
+    --light-shadow: 0 0px 12px rgba(149, 81, 217, 25%);
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button,
+input {
+    font-weight: inherit;
+    font-family: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.PrimaryBtn {
+    background-color: var(--primary-color);
+    color: var(--main-color);
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 1.2rem 3.6rem;
+    text-align: center;
+}
+
+.PrimaryBtn--outline {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    padding: 1rem 3.4rem;
+}
+
+.Loading {
+    text-align: center;
+    padding: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}

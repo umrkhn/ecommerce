@@ -1,0 +1,33 @@
+.Summary {
+    box-shadow: var(--light-shadow);
+    padding: 2.5rem;
+    border-radius: 10px;
+    height: 340px;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: summary;
+}
+
+.Summary__title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.Summary__group:nth-of-type(1) {
+    margin-bottom: 1rem;
+}
+
+.Summary__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Summary__total {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(149, 81, 217, 25%);
+    font-weight: 600;
+    padding-top: 1.5rem;
+}

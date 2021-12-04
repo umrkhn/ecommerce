@@ -1,0 +1,49 @@
+.Navbar {
+    color: var(--main-color);
+    background-color: var(--primary-color);
+}
+
+.Navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1240px;
+    height: 80px;
+}
+
+.Navbar__brand {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.Navbar__links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Navbar__cart {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__count {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    top: 36px;
+    left: 8px;
+    padding-left: 0.5px;
+}

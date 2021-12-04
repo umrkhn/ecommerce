@@ -1,0 +1,19 @@
+.NotFound {
+    color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NotFound__title {
+    font-size: 10rem;
+    line-height: 130px;
+    font-weight: 600;
+}
+
+.NotFound__text {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}

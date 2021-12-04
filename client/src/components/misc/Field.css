@@ -1,0 +1,55 @@
+.Field {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    grid-area: field;
+    position: relative;
+}
+
+.Field__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Field__label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.Field__input {
+    border: 1px solid rgba(149, 81, 217, 30%);
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 1.2rem 2rem;
+    width: 100%;
+    color: var(--primary-color);
+}
+
+.Field__input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.Field__label--error {
+    color: #ee4266;
+}
+
+.Field__input--error {
+    color: #ee4266;
+    border: 1px solid #ee4266;
+}
+
+.Field__input--error:focus {
+    outline: 1px solid #ee4266;
+}
+
+.Field__message {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ee4266;
+}
+
+.Field__icon {
+    position: absolute;
+    right: 17px;
+    bottom: 17px;
+}
