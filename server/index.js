@@ -28,7 +28,10 @@ mongoose
   });
 
 app.use((req, res, next) => {
-  res.set('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.set(
+    'Access-Control-Allow-Origin',
+    'https://boring-stonebraker-e84bae.netlify.app'
+  );
   res.set('Access-Control-Allow-Headers', ['Content-Type', 'Authorization']);
   res.set('Access-Control-Allow-Methods', [
     'GET',
