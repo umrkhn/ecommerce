@@ -11,6 +11,7 @@
 ### Frontend:
 - React
 - State management with Redux
+- Redux middlewares
 - Routing with React-routerv6
 - API integration
 - Form Validation
@@ -29,7 +30,7 @@ Nodejs, npm and git must be installed on your system.
 
 #### Clone Repository:
 ```
-$ git clone https://github.com/umrkhn/quarks.git
+$ git clone https://github.com/umrkhn/ecommerce.git
 ```
 #### Install Frontend:
 open a new terminal session and run the follwing commands.
