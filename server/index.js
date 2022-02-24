@@ -10,10 +10,9 @@ import { prseMongoValidationErr } from './helpers/index.js';
 
 const app = express();
 const PORT = process.env.PORT || 8080;
-const CONNECTION_URL = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.uxir9.mongodb.net/ecommerce?retryWrites=true&w=majority`;
 
 mongoose
-  .connect(CONNECTION_URL, {
+  .connect(process.env.CONNECTION_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
