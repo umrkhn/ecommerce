@@ -27,7 +27,7 @@ mongoose
   });
 
 app.use((req, res, next) => {
-  res.set('Access-Control-Allow-Origin', 'https://ecomm-client.netlify.app');
+  res.set('Access-Control-Allow-Origin', process.env.CLIENT_ORIGIN);
   res.set('Access-Control-Allow-Headers', ['Content-Type', 'Authorization']);
   res.set('Access-Control-Allow-Methods', [
     'GET',

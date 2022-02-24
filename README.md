@@ -69,10 +69,21 @@ $ npm run server
 
 ## Environment Variables
 
-Create a .env file in ./server and paste the follwing code:
+### Frontend:
+
+Create a .env file in `/client` and add the following config:
+
+```
+REACT_APP_AXIOS_BASE_URL = your_api_base_url     // ex: http://localhost:8080
+```
+
+### Backend:
+
+Create a .env file in `/server` and add the following config:
 
 ```
 PORT = 8080
+CLIENT_ORIGIN = your_client_origin     // ex: http://localhost:3000
 CONNECTION_URL = your_mongodb_connection_url
 ACCESS_TOKEN_SECRET = your_access_token_secret
 REFRESH_TOKEN_SECRET = your_refresh_token_secret

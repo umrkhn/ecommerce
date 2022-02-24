@@ -1,6 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://ecom-server2.herokuapp.com',
+  baseURL: process.env.REACT_APP_AXIOS_BASE_URL,
   withCredentials: true,
 });
